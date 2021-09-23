@@ -1,0 +1,259 @@
+EventId,EventTemplate,Occurrences,isNewCluster
+c9a6f6af,Starting 160 workers,5,True
+75f75e51,Started child <*>,320,True
+2dcdd7db,<DevicesSet> wsgi starting up on <*>,640,True
+f7c2c2b1,Stopping WSGI server.,249,True
+5099da42,"<DevicesSet> wsgi exited, is_accepting=True",317,True
+49921fce,WSGI server has stopped.,318,True
+02a02887,Acquired semaphore <*> lock <LogOccurAddr>,4081,True
+c5a00f32,Releasing semaphore <*> lock <LogOccurAddr>,4081,True
+55233082,"Guru mediation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.",3,True
+65e10a11,"MySQL server mode set to STRICT_TRANS_TABLES,STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,TRADITIONAL,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION _check_effective_sql_mode <LogOccurAddr>",486,True
+4aa3d564,Skipping periodic task _periodic_update_dns because its interval is negative,3,True
+1f44b009,log_opt_values <LogOccurAddr>,2008,True
+65a6c3fc,Full set of CONF: <*> <LogOccurAddr>,4,True
+c1f9cdcd,START:_async_init_instance_info _async_init_instance_info <LogOccurAddr>,1,True
+0f50b478,Starting <*> node <DevicesSet>,162,True
+2a84957b,Total number of compute nodes: 1 _async_init_instance_info <LogOccurAddr>,1,True
+ee9bdd73,Creating RPC server for service <*> start <LogOccurAddr>,162,True
+cc494738,Pool creating new connection create <LogOccurAddr>,352,True
+af98cc81,Connecting to AMQP server on controller:5672 __init__ <LogOccurAddr>,352,True
+3c5dd7d5,Connected to AMQP server on controller:5672 via <RerserveParas> client __init__ <LogOccurAddr>,352,True
+dd2ccbdb,END:_async_init_instance_info _async_init_instance_info <LogOccurAddr>,1,True
+78a17141,Adding 3 instances for hosts <InstanceId> _async_init_instance_info <LogOccurAddr>,1,True
+11525208,Join ServiceGroup membership for this service <*> start <LogOccurAddr>,162,True
+513cebe6,"DB_Driver: join new ServiceGroup member <*> to the <*> group, service = <nova.service.Service object at <MemAddr>> join <LogOccurAddr>",162,True
+3689e730,Running periodic task <*> run_periodic_tasks <LogOccurAddr>,47712,True
+2ebd7cf9,Loading app <*> from <Path> load_app <LogOccurAddr>,2,True
+6445ad27,v21 API Extension <*> <RerserveParas> __init__ <LogOccurAddr>,4,True
+f51c174d,extension <*> detected by servers extension for function <*> check_load_extension <LogOccurAddr>,152,True
+063b208d,Running _create_extension_schema for <Extension: <*> <*> version=1> _create_extension_schema <LogOccurAddr>,144,True
+eb70f485,Running _update_extension_schema for <Extension: <*> <*> version=1> _update_extension_schema <LogOccurAddr>,24,True
+321effe6,Running _rebuild_extension_schema for <Extension: <*> <*> version=1> _rebuild_extension_schema <LogOccurAddr>,48,True
+291dfd0e,"Running <*> for <Extension: name=DiskConfig, alias=os-disk-config, version=1> <*> <LogOccurAddr>",8,True
+780788c7,Running _register_resources on <Extension: <*> <*> version=1> _register_resources <LogOccurAddr>,166,True
+1da94a63,Extended resource: <*> _register_resources <LogOccurAddr>,112,True
+7a75b70c,Started child <*> _start_child <LogOccurAddr>,480,True
+013ed254,Running _register_controllers on <Extension: <*> <*> version=1> _register_controllers <LogOccurAddr>,166,True
+ca523ae3,Extension <*> extending resource: <*> _register_controllers <LogOccurAddr>,68,True
+f802f9ee,Loaded extensions,2,True
+81d02a21,osapi_compute listening on <IPAddr>:8774,1,True
+f0f9ad44,Loading network driver 'nova.network.linux_net',1,True
+c0849407,Lock <LockObject>,16144,True
+6e816ffa,Running cmd <DevicesSet>: sudo nova-rootwrap <Path> <*> -c execute <LogOccurAddr>,2,True
+c83b4fe2,"CMD ""sudo nova-rootwrap <Path> <*> -c"" returned: 0 in <*> execute <LogOccurAddr>",2,True
+bd45881d,IPTablesManager.apply completed with success _apply <LogOccurAddr>,1,True
+649ed04d,metadata listening on <IPAddr>:8775,1,True
+8b67a5e2,Init DISCO connector,1,True
+5f80b283,Starting <*> <*> thread _init_events <LogOccurAddr>,2,True
+5aec0075,Connecting to libvirt: qemu:///system _get_new_connection <LogOccurAddr>,1,True
+c3b5de44,Connection event '1' reason 'None',1,True
+5b853a45,Updating compute service status to enabled _set_host_enabled <LogOccurAddr>,1,True
+3ad9577b,Registering for <*> <*> <nova.virt.libvirt.host.Host object at <MemAddr>> _get_new_connection <LogOccurAddr>,2,True
+8b110714,Libvirt host capabilities <capabilities>,1,True
+a8f396ef,Generated XML <DevicesSet> to_xml <LogOccurAddr>,6,True
+1f7280e2,Checking state _get_power_state <LogOccurAddr>,63,True
+1f3a4407,vif_type=bridge instance=Instance<DevicesSet> <*> <LogOccurAddr>,13,True
+6c5bbb6c,Ensuring bridge brq<InstanceId> plug_bridge <LogOccurAddr>,10,True
+98c69114,"Current state is 1, state in DB is 1. _init_instance <LogOccurAddr>",3,True
+5d3196e0,Skipping duplicate iptables rule addition. <RerserveParas> add_rule <LogOccurAddr>,16,True
+017f8505,Excluding nova.compute.monitors.cpu monitor virt_driver. Not in the list of enabled monitors <DevicesSet>.,1,True
+795c85ae,Auditing locally available compute resources for node h432-l13,3913,True
+2dd39f9c,Running cmd <DevicesSet>: <Path> -m oslo_concurrency.prlimit --as=1073741824 --cpu=2 -- env LC_ALL=C LANG=C qemu-img info <Path> execute <LogOccurAddr>,39415,True
+0c55c849,"CMD ""<Path> -m oslo_concurrency.prlimit --as=1073741824 --cpu=2 -- env LC_ALL=C LANG=C qemu-img info <Path>"" returned: 0 in <*> execute <LogOccurAddr>",39415,True
+4f9a4cd5,Hypervisor: free VCPUs: <*> _report_hypervisor_resource_view <LogOccurAddr>,3913,True
+3d16c6a6,Hypervisor: assignable PCI devices,3913,True
+875a1e21,Hypervisor/Node resource view,3913,True
+d91d269b,"Total usable vcpus: 160, total allocated vcpus: <*>",3913,True
+5b5a1fff,Final resource view: name=h432-l13 phys_ram=785088MB <*> phys_disk=390GB <*> total_vcpus=160 <*> pci_stats=<RerserveParas>,3913,True
+7642d889,Compute_service record updated for h432-l13:h432-l13,3913,True
+d59b1679,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.",389,True
+c5258dbf,Triggering sync for uuid <InstanceId> _sync_power_states <LogOccurAddr>,1935,True
+5eef0b11,Starting heal instance info cache _heal_instance_info_cache <LogOccurAddr>,3911,True
+d15316f2,Rebuilding the list of instances to heal _heal_instance_info_cache <LogOccurAddr>,788,True
+d1d5749d,_get_instance_nw_info<DevicesSet> _get_instance_nw_info <LogOccurAddr>,3916,True
+f452c941,Lazy-loading <*> on Instance uuid <InstanceId> obj_load_attr <LogOccurAddr>,807,True
+3c1af270,<REQ_GET> <REQ_GET> <REQ_GET> <LogOccurAddr>,22288,True
+eb424ce3,<RESP_3XX> <RESP_3XX> <RESP_3XX>,63,True
+9df0372f,Making authentication request to <HTTPUri> get_auth_ref <LogOccurAddr>,130,True
+3a401a9a,<RESP_2XX> <RESP_2XX> <RESP_2XX>,22231,True
+62531be3,Updating instance_info_cache with network_info: <RerserveParas> update_instance_cache_with_nw_info <LogOccurAddr>,3918,True
+04d1a0c9,Updated the network info_cache for instance _heal_instance_info_cache <LogOccurAddr>,3909,True
+572a3fc5,"CONF.reclaim_instance_interval <= 0, skipping... _reclaim_queued_deletes <LogOccurAddr>",3912,True
+00ccf9bd,Successfully synced instances from host 'h432-l13'.,1953,True
+2181d789,<DevicesSet> <*> <LogOccurAddr>,355,True
+314a1dba,Reloading cached file <Path> read_cached_file <LogOccurAddr>,126,True
+79f4dc85,Reloaded policy file: <Path> _load_policy_file <LogOccurAddr>,126,True
+dc429763,Calling method '<bound method <*> of <*> object at <MemAddr>>>' _process_stack <LogOccurAddr>,254,True
+d18351ad,Searching by: <ServiceDict> get_all <LogOccurAddr>,32,True
+95c28be7,Policy check for os_compute_api:os-hide-server-addresses failed with credentials <ServiceDict> enforce <LogOccurAddr>,60,True
+db5402ea,<GET_2XX> <GET_2XX> <GET_2XX>,491,True
+741144c3,Getting all quota usages for project: <ID> get_project_quotas <LogOccurAddr>,45,True
+14bb2cbf,Cleaning up deleted instances _run_pending_deletes <LogOccurAddr>,776,True
+c2d45583,There are 0 instances to clean _run_pending_deletes <LogOccurAddr>,776,True
+216f262f,Cleaning up deleted instances with incomplete migration _cleanup_incomplete_migrations <LogOccurAddr>,777,True
+7d985c60,"Action: <*> calling method: <bound method <*> of <*> object at <MemAddr>>>, body: <ServiceDict> _process_stack <LogOccurAddr>",24,True
+914af3eb,Fetching instance by UUID get <LogOccurAddr>,42,True
+6eefb855,<POST_2XX> <POST_2XX> <POST_2XX>,24,True
+f89bf297,Pausing,1,True
+af2a27e9,Emitting event <LifecycleEvent: <*> <InstanceId> => <*> emit_event <LogOccurAddr>,39,True
+b446bf42,VM <*> <DevicesSet>,39,True
+50dca69c,Synchronizing instance power state after lifecycle event <*> current vm_state: <*> current task_state: <*> current DB power_state: <*> VM power_state: <*> handle_lifecycle_event <LogOccurAddr>,31,True
+7f82ebe3,Unpausing,1,True
+b992222b,Updating bandwidth usage cache,1,True
+67e96752,Bandwidth usage not supported by hypervisor.,1,True
+bec0db30,Going to try to terminate instance delete <LogOccurAddr>,2,True
+39a14eb3,Attempting to reserve resources for project <ID> and user <ID>. Deltas: <DeltaParas> reserve <LogOccurAddr>,6,True
+cea95a45,Quota limits for project <ID>: <ServiceDict> reserve <LogOccurAddr>,6,True
+4759c590,Getting quotas for project <ID>. Resources: <RerserveParas> _get_quotas <LogOccurAddr>,18,True
+b1a60291,Quotas for project <ID> after resource sync: <QuotasParas> reserve <LogOccurAddr>,6,True
+0497bcb1,Getting quotas for user <ID> and project <ID>. Resources: <RerserveParas> _get_quotas <LogOccurAddr>,18,True
+9a560e3d,Quotas for project <ID> and user <ID> after resource sync: <QuotasParas> reserve <LogOccurAddr>,6,True
+4d79e1d0,Created reservations <RerserveParas> reserve <LogOccurAddr>,6,True
+7e970877,<DELETE_2XX> <DELETE_2XX> <DELETE_2XX>,4,True
+ce0cacf4,Terminating instance,2,True
+4ed26803,Start <*> the instance on the hypervisor. <*> <LogOccurAddr>,6,True
+479432d5,Instance <*> successfully.,10,True
+18a2c72a,Running cmd <DevicesSet>: mv <Path> <Path> execute <LogOccurAddr>,3,True
+a9a1085c,Committed reservations <RerserveParas> commit <LogOccurAddr>,6,True
+a0373f08,"CMD ""mv <Path> <Path>"" returned: 0 in <*> execute <LogOccurAddr>",3,True
+dca8f7ec,Deleting instance files <Path>,3,True
+0f14b607,Deletion of <Path> complete,3,True
+137e7553,Took <*> seconds to <*> the instance on the hypervisor.,6,True
+740e5d54,deallocate_for_instance<DevicesSet> deallocate_for_instance <LogOccurAddr>,2,True
+a6dcf03a,Deallocating network for instance _deallocate_network <LogOccurAddr>,2,True
+30de0420,<REQ_DELETE> <REQ_DELETE> <REQ_DELETE> <LogOccurAddr>,2,True
+3e8bfe2e,Security group member updated <RerserveParas>,6,True
+856f1925,Took <*> seconds to deallocate network for instance.,2,True
+b1ebb1b2,terminating bdm BlockDeviceMapping<DevicesSet> _cleanup_volumes <LogOccurAddr>,2,True
+c8e4d856,Returning 404 to user: Instance <InstanceId> could not be found. __call__ <LogOccurAddr>,2,True
+413dae25,HTTP exception thrown: Instance <InstanceId> could not be found.,2,True
+ac03c49f,<GET_4XX> <GET_4XX> <GET_4XX>,12,True
+77cca45d,Returning 404 to user: No instances found for any event __call__ <LogOccurAddr>,2,True
+66acd71e,HTTP exception thrown: No instances found for any event,2,True
+c43ea820,Dropping event network-vi<InstanceId>leted:<InstanceId> for unknown instance <InstanceId> create <LogOccurAddr>,2,True
+3b4381c0,<POST_4XX> <POST_4XX> <POST_4XX>,2,True
+3904d3d7,Calling method '<function version_select at <MemAddr>>' _process_stack <LogOccurAddr>,4,True
+32537508,Running _create_extension_point for <Extension: <*> <*> version=1> _create_extension_point <LogOccurAddr>,44,True
+54d0a99f,<HEAD_2XX> <HEAD_2XX> <HEAD_2XX>,63,True
+de66a510,validate_networks<DevicesSet> for <RerserveParas> validate_networks <LogOccurAddr>,4,True
+9dfa3a5f,Reserving resources using <*> <ID> reserve <LogOccurAddr>,8,True
+a0e3a1f0,Going to run 1 instances... _provision_instances <LogOccurAddr>,4,True
+8eb43f2e,block_device_mapping <RerserveParas> _create_block_device_mapping <LogOccurAddr>,4,True
+99488219,Update host state from compute node: ComputeNode<DevicesSet> _locked_update <LogOccurAddr>,5,True
+76bf9a43,Update host state with aggregates: <RerserveParas> _locked_update <LogOccurAddr>,5,True
+59fd302f,Update host state with service dict: <ServiceDict> _locked_update <LogOccurAddr>,5,True
+8ce1bcc9,Update host state with instances,5,True
+4d2470bb,Starting with 1 host<DevicesSet> get_filtered_objects <LogOccurAddr>,5,True
+77cf7004,Filter AllHostsFilter returned 1 host<DevicesSet> get_filtered_objects <LogOccurAddr>,5,True
+d9981c9c,Filtered <RerserveParas> _schedule <LogOccurAddr>,5,True
+236520ec,Weighed <RerserveParas> _schedule <LogOccurAddr>,5,True
+13d28d9b,Selected host: WeighedHost <RerserveParas> _schedule <LogOccurAddr>,5,True
+64dd91c2,Require both a host and instance NUMA topology to fit instance on host. numa_fit_instance_to_host <LogOccurAddr>,5,True
+105d55f0,Starting instance... _do_build_and_run_instance <LogOccurAddr>,4,True
+eabd0526,Memory overhead for 2048 MB instance; 0 MB instance_claim <LogOccurAddr>,5,True
+0269be8d,"Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU",5,True
+0bfc2015,"Total memory: 785088 MB, used: <*> MB",5,True
+b0e5ffef,"memory limit not specified, defaulting to unlimited",5,True
+32b74c5c,"Total disk: 390 GB, used: <*> GB",5,True
+586161ff,"disk limit not specified, defaulting to unlimited",5,True
+f10d554a,"Total vcpu: 160 VCPU, used: <*> VCPU",5,True
+c4847c00,"vcpu limit not specified, defaulting to unlimited",5,True
+f58b4064,Claim successful,5,True
+ef0f05f6,Start building networks asynchronously for instance. _build_resources <LogOccurAddr>,4,True
+0466bb62,Cannot find OS information - Reason: <DevicesSet>,19,True
+778ef52a,Allocating IP information in the background. _allocate_network_async <LogOccurAddr>,4,True
+ba5df94c,allocate_for_instance<DevicesSet> allocate_for_instance <LogOccurAddr>,4,True
+fe9c4179,block_device_list <RerserveParas> volume_in_mapping <LogOccurAddr>,10,True
+a4d4ad51,Start building block device mappings for instance. _build_resources <LogOccurAddr>,4,True
+7a3a912d,<REQ_POST> <REQ_POST> <REQ_POST> <LogOccurAddr>,4,True
+2368ba13,Creating image,5,True
+57e1e8db,Running cmd <DevicesSet>: sudo nova-rootwrap <Path> touch -c <Path> execute <LogOccurAddr>,101,True
+ff1004b2,"CMD ""sudo nova-rootwrap <Path> touch -c <Path>"" returned: 0 in <*> execute <LogOccurAddr>",101,True
+08f72d93,Successfully created port: <InstanceId> _create_port <LogOccurAddr>,4,True
+ad2d7f62,Running cmd <DevicesSet>: qemu-img create -f qcow2 -o backing_file=<Path> <Path> execute <LogOccurAddr>,5,True
+a52a358d,Instance cache missing network info. _get_preexisting_port_ids <LogOccurAddr>,4,True
+129e62b5,"CMD ""qemu-img create -f qcow2 -o backing_file=<Path> <Path>"" returned: 0 in <*> execute <LogOccurAddr>",5,True
+ff323c74,Checking if we can resize image <Path> size=21474836480 can_resize_image <LogOccurAddr>,9,True
+1781387c,Running cmd <DevicesSet>: qemu-img resize <Path> 21474836480 execute <LogOccurAddr>,4,True
+75ceda3e,"CMD ""qemu-img resize <Path> 21474836480"" returned: 0 in <*> execute <LogOccurAddr>",4,True
+b79416b3,Instance network_info: |<RerserveParas>| _allocate_network_async <LogOccurAddr>,4,True
+072c2dce,Cannot resize image <Path> to a smaller size. can_resize_image <LogOccurAddr>,5,True
+53d751d7,Start _get_guest_xml network_info=<RerserveParas>} _get_guest_xml <LogOccurAddr>,5,True
+2e72d934,CPU mode 'host-model' model '' was chosen _get_guest_cpu_model_config <LogOccurAddr>,5,True
+85190183,"Getting desirable topologies for flavor Flavor<DevicesSet>, allow threads: True _get_desirable_cpu_topologies <LogOccurAddr>",5,True
+72d8bb67,Flavor <*> <*> _get_cpu_topology_constraints <LogOccurAddr>,10,True
+9c6e2a9d,Image <*> <*> _get_cpu_topology_constraints <LogOccurAddr>,10,True
+e6b52ca9,Chosen -1:-1:-1 limits 65536:65536:65536 _get_cpu_topology_constraints <LogOccurAddr>,5,True
+8166f1e8,Topology preferred VirtCPUTopology<DevicesSet> _get_desirable_cpu_topologies <LogOccurAddr>,5,True
+3ede72cf,Build topologies for 1 vcpu<DevicesSet> 1:1:1 _get_possible_cpu_topologies <LogOccurAddr>,5,True
+d38cb89a,Got 1 possible topologies _get_possible_cpu_topologies <LogOccurAddr>,5,True
+73962c26,Possible topologies <RerserveParas> _get_desirable_cpu_topologies <LogOccurAddr>,5,True
+8e8a284c,Sorted desired topologies <RerserveParas> _get_desirable_cpu_topologies <LogOccurAddr>,5,True
+631f8e77,Path '<Path>' supports direct I/O _supports_direct_io <LogOccurAddr>,1,True
+667f23e3,vif_type=bridge instance=Instance<DevicesSet> virt_typekvm get_config <LogOccurAddr>,5,True
+e851f30c,"End _get_guest_xml xml=<domain type=""kvm"">",5,True
+d6d07381,Preparing to wait for external event network-vif-plugg<InstanceId> prepare_for_instance_event <LogOccurAddr>,5,True
+8fa6bbe5,During sync_power_state the instance has a pending task <DevicesSet>. Skip.,11,True
+ab2b043c,The instance sync for host 'h432-l13' did not match. R<InstanceId>reated its InstanceList.,1,True
+9589d170,Didn't find any instances for network info cache update. _heal_instance_info_cache <LogOccurAddr>,2,True
+70396318,Stopping Linux bridge agent agent.,1,True
+95d3c947,Stopping rootwrap daemon process with pid=42529,1,True
+48f9f2a1,Logging enabled!,1,True
+e3ffdc80,<Path> version 8.1.2,1,True
+4ac78071,Interface mappings: <ServiceDict>,1,True
+c0d6c83c,Bridge mappings: <ServiceDict>,1,True
+224a9a95,Spawned new rootwrap daemon process with pid=415974,1,True
+08c978a5,"Agent initialized successfully, now running...",1,True
+4f826e7e,RPC agent_id: lbfe163ef2d6b7,1,True
+49c69b28,Loaded agent extensions: <RerserveParas>,1,True
+20b2b9f9,Linux bridge agent Agent RPC Daemon Started!,1,True
+748908de,Linux bridge agent Agent out of sync with plugin!,1,True
+4448acc1,Clearing orphaned ARP spoofing entries for devices <RerserveParas>,1,True
+44360caf,Preparing filters for devices set<DevicesSet>,6,True
+5c4a2d22,Port tap<InstanceId> updated. Details: <ServiceDict>,9,True
+87245ba9,Creating event <*> for instance <InstanceId>,11,True
+70fae5d9,Received event <*> external_instance_event <LogOccurAddr>,11,True
+b17a8b89,Processing event network-vif-plugg<InstanceId> _process_instance_event <LogOccurAddr>,5,True
+9a35d203,Unexpected attempt to pop events during shutdown _pop_event <LogOccurAddr>,6,True
+21164907,No waiting events found dispatching <*> pop_instance_event <LogOccurAddr>,6,True
+d6c5a2b3,Instance is running spawn <LogOccurAddr>,5,True
+29bf2c84,Took <*> seconds to build instance.,4,True
+7bdf3b48,Using cached metadata for instance <InstanceId> get_metadata_by_instance_id <LogOccurAddr>,14,True
+f89bf297,Pausing,1,True
+7f82ebe3,Unpausing,1,True
+bcf623f3,Remove device filter for set<DevicesSet>,3,True
+dc055b53,Attachment tap<InstanceId> removed,3,True
+e7e81372,Port tap<InstanceId> updated.,3,True
+be60ce5b,Verify <*> images <*> <LogOccurAddr>,192,True
+f5132f1a,Image id yields fingerprint <ID> _age_and_verify_cached_images <LogOccurAddr>,96,True
+06263cde,Image id <InstanceId> yields fingerprint <ID> _age_and_verify_cached_images <LogOccurAddr>,96,True
+5a1d5b45,image <InstanceId> at <DevicesSet>: checking,96,True
+3e848344,"image <InstanceId> at <DevicesSet>: in use: on this node <*> local, 0 on other nodes sharing this instance storage",96,True
+c9e1cb74,image <InstanceId> at <DevicesSet>: image is in use _handle_base_image <LogOccurAddr>,96,True
+de879e4e,<InstanceId> is a valid instance name _list_backing_images <LogOccurAddr>,479,True
+8b55f654,<InstanceId> has a disk file _list_backing_images <LogOccurAddr>,479,True
+f70eec74,Instance <InstanceId> is backed by <ID> _list_backing_images <LogOccurAddr>,479,True
+13022e79,Active base files: <Path>,96,True
+1bacbf03,Verification complete _age_and_verify_cached_images <LogOccurAddr>,96,True
+69f55169,Resuming,1,True
+120f049b,Successfully <*> image <InstanceId>,2,True
+28b48bfd,Shutting down instance from state 1 _clean_shutdown <LogOccurAddr>,1,True
+5d54de2d,Instance shutdown successfully after 3 seconds.,1,True
+1a24a1d9,Beginning cold snapshot process,1,True
+a74705ba,<PUT_2XX> <PUT_2XX> <PUT_2XX>,6,True
+ffe1158e,Updating metadata for image <InstanceId>,5,True
+a112238e,Running cmd <DevicesSet>: qemu-img convert -f qcow2 -O qcow2 <Path> <Path> execute <LogOccurAddr>,1,True
+6e8e42a7,Uploaded data of image <InstanceId> from request payload successfully.,1,True
+be073e47,"CMD ""qemu-img convert -f qcow2 -O qcow2 <Path> <Path>"" returned: 0 in 0.281s execute <LogOccurAddr>",1,True
+ad6e13b2,"Snapshot extracted, beginning image upload",1,True
+2776c7dc,Snapshot image upload complete,1,True
+a0dde370,"<InstanceId> was qcow2, converting to raw fetch_to_raw <LogOccurAddr>",1,True
+f3a00082,Running cmd <DevicesSet>: qemu-img convert -O raw <Path> <Path> -f qcow2 execute <LogOccurAddr>,1,True
+f5d73565,"CMD ""qemu-img convert -O raw <Path> <Path> -f qcow2"" returned: 0 in 0.108s execute <LogOccurAddr>",1,True
+f89bf297,Pausing,1,True
+7f82ebe3,Unpausing,1,True
+bbb965c2,Unknown base file: <Path>,36,True
+9f03a3dd,Removable base files: <Path>,36,True
+0c029bb0,Base or swap file too young to remove: <Path>,35,True
+5849a3b7,Removing base or swap file: <Path>,1,True
