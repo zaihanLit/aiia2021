@@ -1,0 +1,395 @@
+EventId,EventTemplate,Occurrences,isNewCluster
+ac03c49f,<GET_4XX> <GET_4XX> <GET_4XX>,3302,False
+2181d789,<DevicesSet> <*> <LogOccurAddr>,1084,False
+dc429763,Calling method '<bound method <*> of <*> object at <MemAddr>>>' _process_stack <LogOccurAddr>,909,False
+db5402ea,<GET_2XX> <GET_2XX> <GET_2XX>,20908,False
+d18351ad,Searching by: <ServiceDict> get_all <LogOccurAddr>,105,False
+95c28be7,Policy check for os_compute_api:os-hide-server-addresses failed with credentials <ServiceDict> enforce <LogOccurAddr>,205,False
+3c1af270,<REQ_GET> <REQ_GET> <REQ_GET> <LogOccurAddr>,18211,False
+3a401a9a,<RESP_2XX> <RESP_2XX> <RESP_2XX>,18170,False
+314a1dba,Reloading cached file <Path> read_cached_file <LogOccurAddr>,118,False
+79f4dc85,Reloaded policy file: <Path> _load_policy_file <LogOccurAddr>,118,False
+741144c3,Getting all quota usages for project: <ID> get_project_quotas <LogOccurAddr>,182,False
+00ccf9bd,Successfully synced instances from host 'h432-l13'.,1502,False
+c0849407,Lock <LockObject>,12211,False
+3689e730,Running periodic task <*> run_periodic_tasks <LogOccurAddr>,36804,False
+5eef0b11,Starting heal instance info cache _heal_instance_info_cache <LogOccurAddr>,3019,False
+02a02887,Acquired semaphore <*> lock <LogOccurAddr>,3036,False
+d1d5749d,_get_instance_nw_info<DevicesSet> _get_instance_nw_info <LogOccurAddr>,3023,False
+62531be3,Updating instance_info_cache with network_info: <RerserveParas> update_instance_cache_with_nw_info <LogOccurAddr>,3045,False
+c5a00f32,Releasing semaphore <*> lock <LogOccurAddr>,3036,False
+04d1a0c9,Updated the network info_cache for instance _heal_instance_info_cache <LogOccurAddr>,3012,False
+795c85ae,Auditing locally available compute resources for node h432-l13,3020,False
+2dd39f9c,Running cmd <DevicesSet>: <Path> -m oslo_concurrency.prlimit --as=1073741824 --cpu=2 -- env LC_ALL=C LANG=C qemu-img info <Path> execute <LogOccurAddr>,24468,False
+0c55c849,CMD <*> -m oslo_concurrency.prlimit --as=1073741824 --cpu=2 -- env LC_ALL=C LANG=C qemu-img info <*> returned: 0 in <*> execute <LogOccurAddr>,24468,False
+4f9a4cd5,Hypervisor: free VCPUs: <*> _report_hypervisor_resource_view <LogOccurAddr>,3020,False
+3d16c6a6,Hypervisor: assignable PCI devices,3020,False
+875a1e21,Hypervisor/Node resource view,3020,False
+d91d269b,"Total usable vcpus: 160, total allocated vcpus: <*>",3020,False
+5b5a1fff,Final resource view: name=h432-l13 phys_ram=785088MB <*> phys_disk=390GB <*> total_vcpus=160 <*> pci_stats=<RerserveParas>,3020,False
+7642d889,Compute_service record updated for h432-l13:h432-l13,3020,False
+572a3fc5,"CONF.reclaim_instance_interval <= 0, skipping... _reclaim_queued_deletes <LogOccurAddr>",3018,False
+14bb2cbf,Cleaning up deleted instances _run_pending_deletes <LogOccurAddr>,601,False
+c2d45583,There are 0 instances to clean _run_pending_deletes <LogOccurAddr>,599,False
+775e7fb3,AMQP server on controller:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds.,19,True
+722918f4,"A recoverable connection/channel event occurred, trying to reconnect: Too many heartbeats missed",15,True
+3389ae97,Received recoverable event from kombu: on_event <LogOccurAddr>,167,True
+ab1be6fb,Reconnected to AMQP server on controller:5672 via <RerserveParas> client,163,True
+172c9476,AMQP server on controller:5672 is unreachable: <*> <*> Trying again in <*> seconds.,403,True
+982cdf59,AMQP server controller:5672 closed the connection. Check login credentials: Socket closed,11,True
+605b9c1c,Lost connection to nov<InstanceId>onductor for reporting service status.,3,True
+2f09452e,Function <*> run outlasted interval by <*> sec,29,True
+4a797f8d,event during <*>,16,True
+58e4652d,"Timeout in RPC method <*> Waiting for <*> seconds before next attempt. If the server is not down, consider increasing the rpc_response_timeout option as Neutron server<DevicesSet> may be overloaded and unable to respond quickly enough.",8,True
+40731fd5,Increasing timeout for <*> calls to <*> seconds. Restart the agent to restore it to the default value.,6,True
+71a4caed,Failed reporting state!,7,True
+b8ee77b3,No calling threads waiting for msg_id : <ID>,15,True
+b24e3d6d,Recovered from being unable to report status.,6,True
+d15316f2,Rebuilding the list of instances to heal _heal_instance_info_cache <LogOccurAddr>,759,False
+f452c941,Lazy-loading <*> on Instance uuid <InstanceId> obj_load_attr <LogOccurAddr>,787,False
+216f262f,Cleaning up deleted instances with incomplete migration _cleanup_incomplete_migrations <LogOccurAddr>,601,False
+eb424ce3,<RESP_3XX> <RESP_3XX> <RESP_3XX>,70,False
+9df0372f,Making authentication request to <HTTPUri> get_auth_ref <LogOccurAddr>,189,False
+7d985c60,"Action: <*> calling method: <bound method <*> of <*> object at <MemAddr>>>, body: <ServiceDict> _process_stack <LogOccurAddr>",60,False
+87245ba9,Creating event <*> for instance <InstanceId>,45,False
+d59b1679,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.",301,False
+c5258dbf,Triggering sync for uuid <InstanceId> _sync_power_states <LogOccurAddr>,1201,False
+be60ce5b,Verify <*> images <*> <LogOccurAddr>,148,False
+f5132f1a,Image id yields fingerprint <ID> _age_and_verify_cached_images <LogOccurAddr>,74,False
+06263cde,Image id <InstanceId> yields fingerprint <ID> _age_and_verify_cached_images <LogOccurAddr>,74,False
+5a1d5b45,image <InstanceId> at <DevicesSet>: checking,74,False
+3e848344,"image <InstanceId> at <DevicesSet>: in use: on this node <*> local, 0 on other nodes sharing this instance storage",74,False
+c9e1cb74,image <InstanceId> at <DevicesSet>: image is in use _handle_base_image <LogOccurAddr>,74,False
+57e1e8db,Running cmd <DevicesSet>: sudo nova-rootwrap <Path> touch -c <Path> execute <LogOccurAddr>,91,False
+ff1004b2,CMD <*> nova-rootwrap <Path> touch -c <*> returned: 0 in <*> execute <LogOccurAddr>,91,False
+8b55f654,<InstanceId> has a disk file _list_backing_images <LogOccurAddr>,297,False
+de879e4e,<InstanceId> is a valid instance name _list_backing_images <LogOccurAddr>,297,False
+f70eec74,Instance <InstanceId> is backed by <ID> _list_backing_images <LogOccurAddr>,297,False
+13022e79,Active base files: <Path>,74,False
+1bacbf03,Verification complete _age_and_verify_cached_images <LogOccurAddr>,74,False
+914af3eb,Fetching instance by UUID get <LogOccurAddr>,153,False
+7e970877,<DELETE_2XX> <DELETE_2XX> <DELETE_2XX>,29,False
+6eefb855,<POST_2XX> <POST_2XX> <POST_2XX>,57,False
+9d7e8093,Nova event response: <ServiceDict>,45,True
+bec0db30,Going to try to <*> instance <*> <LogOccurAddr>,12,False
+39a14eb3,Attempting to reserve resources for project <ID> and user <ID>. Deltas: <DeltaParas> reserve <LogOccurAddr>,29,False
+4759c590,Getting quotas for project <ID>. Resources: <RerserveParas> _get_quotas <LogOccurAddr>,56,False
+cea95a45,Quota limits for project <ID>: <ServiceDict> reserve <LogOccurAddr>,29,False
+b1a60291,Quotas for project <ID> after resource sync: <QuotasParas> reserve <LogOccurAddr>,29,False
+0497bcb1,Getting quotas for user <ID> and project <ID>. Resources: <RerserveParas> _get_quotas <LogOccurAddr>,56,False
+9a560e3d,Quotas for project <ID> and user <ID> after resource sync: <QuotasParas> reserve <LogOccurAddr>,29,False
+4d79e1d0,Created reservations <RerserveParas> reserve <LogOccurAddr>,29,False
+a9a1085c,Committed reservations <RerserveParas> commit <LogOccurAddr>,19,False
+413dae25,HTTP <*> thrown: Instance <*> could not be found.,4,False
+c8e4d856,Returning 404 to user: Instance <*> could not be found. __call__ <LogOccurAddr>,4,False
+667f23e3,vif_type=bridge instance=Instance<DevicesSet> virt_typekvm get_config <LogOccurAddr>,8,False
+0466bb62,Cannot find OS information - Reason: <DevicesSet>,54,False
+1f3a4407,vif_type=bridge instance=Instance<DevicesSet> <*> <LogOccurAddr>,22,False
+a8f396ef,Generated XML <DevicesSet> to_xml <LogOccurAddr>,10,False
+30de0420,<REQ_DELETE> <REQ_DELETE> <REQ_DELETE> <LogOccurAddr>,18,False
+3e8bfe2e,Security group member updated <RerserveParas>,21,False
+bcf623f3,Remove device filter for set<DevicesSet>,10,False
+93035257,Port <InstanceId> from network info_cache is no longer associated with instance in Neutron. Removing from network info_cache.,1,True
+dc055b53,Attachment tap<InstanceId> removed,10,False
+e7e81372,Port tap<InstanceId> updated.,9,False
+a52a358d,Instance cache missing network info. _get_preexisting_port_ids <LogOccurAddr>,23,False
+70fae5d9,Received event <*> external_instance_event <LogOccurAddr>,45,False
+ce0cacf4,Terminating instance,20,False
+4ed26803,Start <*> the instance on the hypervisor. <*> <LogOccurAddr>,37,False
+479432d5,Instance <*> successfully.,18,False
+18a2c72a,Running cmd <DevicesSet>: mv <Path> <Path> execute <LogOccurAddr>,26,False
+a0373f08,CMD <*> <Path> <*> returned: <*> in <*> execute <LogOccurAddr>,26,False
+dca8f7ec,Deleting instance files <Path>,18,False
+0f14b607,Deletion of <Path> complete,20,False
+137e7553,Took <*> seconds to <*> the instance on the hypervisor.,23,False
+a6dcf03a,Deallocating network for instance _deallocate_network <LogOccurAddr>,20,False
+740e5d54,deallocate_for_instance<DevicesSet> deallocate_for_instance <LogOccurAddr>,24,False
+856f1925,Took <*> seconds to deallocate network for instance.,19,False
+b1ebb1b2,terminating bdm BlockDeviceMapping<DevicesSet> _cleanup_volumes <LogOccurAddr>,6,False
+af2a27e9,Emitting event <LifecycleEvent: <*> <InstanceId> => <*> emit_event <LogOccurAddr>,38,False
+b446bf42,VM <*> <DevicesSet>,38,False
+1f7280e2,Checking state _get_power_state <LogOccurAddr>,67,False
+ed2fde63,AMQP server on controller:5672 is unreachable: <RerserveParas> Connection reset by peer. Trying again in 1 seconds.,43,True
+004b350b,"A recoverable connection/channel event occurred, trying to reconnect: <RerserveParas> Connection reset by peer",64,True
+3904d3d7,Calling method '<function version_select at <MemAddr>>' _process_stack <LogOccurAddr>,11,False
+32537508,Running _create_extension_point for <Extension: <*> <*> version=1> _create_extension_point <LogOccurAddr>,99,False
+291dfd0e,"Running <*> for <Extension: name=DiskConfig, alias=os-disk-config, version=1> <*> <LogOccurAddr>",21,False
+54d0a99f,<HEAD_2XX> <HEAD_2XX> <HEAD_2XX>,202,False
+de66a510,validate_networks<DevicesSet> for <RerserveParas> validate_networks <LogOccurAddr>,9,False
+9dfa3a5f,Reserving resources using <*> <ID> reserve <LogOccurAddr>,18,False
+a0e3a1f0,Going to run 1 instances... _provision_instances <LogOccurAddr>,9,False
+65e10a11,MySQL server mode set to <*> _check_effective_sql_mode <LogOccurAddr>,489,False
+8eb43f2e,block_device_mapping <RerserveParas> _create_block_device_mapping <LogOccurAddr>,9,False
+cc494738,Pool creating new connection create <LogOccurAddr>,385,False
+af98cc81,Connecting to AMQP server on controller:5672 __init__ <LogOccurAddr>,385,False
+3c5dd7d5,Connected to AMQP server on controller:5672 via <RerserveParas> client __init__ <LogOccurAddr>,385,False
+99488219,Update host state from compute node: ComputeNode<DevicesSet> _locked_update <LogOccurAddr>,25,False
+8ce1bcc9,Update host state with instances,25,False
+59fd302f,Update host state with service dict: <ServiceDict> _locked_update <LogOccurAddr>,25,False
+76bf9a43,Update host state with aggregates: <RerserveParas> _locked_update <LogOccurAddr>,25,False
+d9981c9c,Filtered <RerserveParas> _schedule <LogOccurAddr>,17,False
+77cf7004,Filter AllHostsFilter returned 1 host<DevicesSet> get_filtered_objects <LogOccurAddr>,17,False
+4d2470bb,Starting with 1 host<DevicesSet> get_filtered_objects <LogOccurAddr>,17,False
+236520ec,Weighed <RerserveParas> _schedule <LogOccurAddr>,17,False
+64dd91c2,Require both a host and instance NUMA topology to fit instance on host. numa_fit_instance_to_host <LogOccurAddr>,17,False
+13d28d9b,Selected host: WeighedHost <RerserveParas> _schedule <LogOccurAddr>,17,False
+42ee47df,Refusing to bind port <InstanceId> to dead agent: <ServiceDict>,120,True
+2e7e7b97,Attempt <*> to bind port <InstanceId>,108,True
+55a4147e,Failed to bind port <InstanceId> on host h432-l13 for vnic_type normal using segments <RerserveParas>,120,True
+c1a04bea,"Trigger reload_allocations for port admin_state_up=True, allowed_address_pairs=<RerserveParas>, status=DOWN, tenant_id=<ID>, <*>",17,True
+a9d76f54,event from last host: h432-l13 <DevicesSet>: <RerserveParas>,12,True
+1d5f7ed0,"Failed to compute_task_build_instances: Exceeded maximum number of retries. Exceeded max scheduling attempts 3 for instance <InstanceId>. Last exp: Binding failed for port <InstanceId>, please check neutron logs for more information.",4,True
+d7246304,Setting instance to <*> state.,12,True
+77cca45d,Returning 404 to user: No instances found for any event __call__ <LogOccurAddr>,10,False
+66acd71e,HTTP <*> thrown: No instances found for any event,10,False
+0221bf2a,Unable to find a host for instance <InstanceId>. Dropping event network-vi<InstanceId>leted create <LogOccurAddr>,5,True
+3b4381c0,<POST_4XX> <POST_4XX> <POST_4XX>,20,False
+105d55f0,Starting instance... _do_build_and_run_instance <LogOccurAddr>,17,False
+eabd0526,Memory overhead for <*> MB instance; 0 MB instance_claim <LogOccurAddr>,17,False
+0269be8d,"Attempting claim: memory <*> MB, disk <*> GB, vcpus 1 CPU",17,False
+0bfc2015,"Total memory: 785088 MB, used: <*> MB",17,False
+32b74c5c,"Total disk: 390 GB, used: <*> GB",17,False
+586161ff,"disk limit not specified, defaulting to unlimited",17,False
+b0e5ffef,"memory limit not specified, defaulting to unlimited",17,False
+c4847c00,"vcpu limit not specified, defaulting to unlimited",17,False
+f10d554a,"Total vcpu: 160 VCPU, used: <*> VCPU",17,False
+f58b4064,Claim successful,17,False
+ef0f05f6,Start building networks asynchronously for instance. _build_resources <LogOccurAddr>,17,False
+778ef52a,Allocating IP information in the background. _allocate_network_async <LogOccurAddr>,17,False
+ba5df94c,allocate_for_instance<DevicesSet> allocate_for_instance <LogOccurAddr>,17,False
+fe9c4179,block_device_list <RerserveParas> volume_in_mapping <LogOccurAddr>,37,False
+a4d4ad51,Start building block device mappings for instance. _build_resources <LogOccurAddr>,17,False
+7a3a912d,<REQ_POST> <REQ_POST> <REQ_POST> <LogOccurAddr>,17,False
+2368ba13,Creating image,17,False
+ad2d7f62,Running cmd <DevicesSet>: qemu-img create -f qcow2 -o backing_file=<Path> <Path> execute <LogOccurAddr>,17,False
+129e62b5,CMD <*> create -f qcow2 -o backing_file=<Path> <*> returned: 0 in <*> execute <LogOccurAddr>,17,False
+ff323c74,Checking if we can resize image <Path> <*> can_resize_image <LogOccurAddr>,36,False
+1781387c,Running cmd <DevicesSet>: qemu-img resize <Path> <*> execute <LogOccurAddr>,17,False
+aeb23a1b,Instance failed network setup after 1 attempt<DevicesSet>,12,True
+75ceda3e,CMD <*> resize <Path> <*> returned: 0 in <*> execute <LogOccurAddr>,17,False
+072c2dce,Cannot resize image <Path> to a smaller size. can_resize_image <LogOccurAddr>,19,False
+868f5efa,Instance failed to spawn,12,True
+543e6be8,"During wait destroy, instance disappeared.",15,True
+1e01fa69,Aborting claim: <RerserveParas> abort <LogOccurAddr>,12,True
+b480c9cd,"Binding failed for port <InstanceId>, please check neutron logs for more information. notify_about_instance_usage <LogOccurAddr>",12,True
+f47f4e61,"Build of instance <InstanceId> was re-scheduled: Binding failed for port <InstanceId>, please check neutron logs for more information. _do_build_and_run_instance <LogOccurAddr>",12,True
+2285ef69,Linux bridge agent Agent has just been revived. Doing a full sync.,5,True
+748908de,Linux bridge agent Agent out of sync with plugin!,7,False
+44360caf,Preparing filters for devices set<DevicesSet>,15,False
+5c4a2d22,Port tap<InstanceId> updated. Details: <ServiceDict>,33,False
+9a35d203,Unexpected attempt to pop events during shutdown _pop_event <LogOccurAddr>,32,False
+21164907,No waiting events found dispatching <*> pop_instance_event <LogOccurAddr>,32,False
+7bdf3b48,Using cached metadata for instance <InstanceId> get_metadata_by_instance_id <LogOccurAddr>,13,False
+08f72d93,Successfully created port: <InstanceId> _create_port <LogOccurAddr>,5,False
+b79416b3,Instance network_info: |<RerserveParas>| _allocate_network_async <LogOccurAddr>,5,False
+53d751d7,Start _get_guest_xml network_info=<RerserveParas>} _get_guest_xml <LogOccurAddr>,7,False
+2e72d934,CPU mode 'host-model' model '' was chosen _get_guest_cpu_model_config <LogOccurAddr>,7,False
+85190183,"Getting desirable topologies for flavor Flavor<DevicesSet>, allow threads: True _get_desirable_cpu_topologies <LogOccurAddr>",7,False
+72d8bb67,Flavor <*> <*> _get_cpu_topology_constraints <LogOccurAddr>,14,False
+9c6e2a9d,Image <*> <*> _get_cpu_topology_constraints <LogOccurAddr>,14,False
+e6b52ca9,Chosen -1:-1:-1 limits 65536:65536:65536 _get_cpu_topology_constraints <LogOccurAddr>,7,False
+8166f1e8,Topology preferred VirtCPUTopology<DevicesSet> _get_desirable_cpu_topologies <LogOccurAddr>,7,False
+3ede72cf,Build topologies for 1 vcpu<DevicesSet> 1:1:1 _get_possible_cpu_topologies <LogOccurAddr>,7,False
+d38cb89a,Got 1 possible topologies _get_possible_cpu_topologies <LogOccurAddr>,7,False
+8e8a284c,Sorted desired topologies <RerserveParas> _get_desirable_cpu_topologies <LogOccurAddr>,7,False
+73962c26,Possible topologies <RerserveParas> _get_desirable_cpu_topologies <LogOccurAddr>,7,False
+e851f30c,End _get_guest_xml xml=<domain <*>,7,False
+d6d07381,Preparing to wait for external event network-vif-plugg<InstanceId> prepare_for_instance_event <LogOccurAddr>,5,False
+6c5bbb6c,Ensuring bridge brq<InstanceId> plug_bridge <LogOccurAddr>,14,False
+5d3196e0,Skipping duplicate iptables rule addition. <RerserveParas> add_rule <LogOccurAddr>,20,False
+50dca69c,Synchronizing instance power state after lifecycle event <*> current vm_state: <*> current task_state: <*> current DB power_state: <*> VM power_state: <*> handle_lifecycle_event <LogOccurAddr>,27,False
+8fa6bbe5,During sync_power_state the instance has a pending task <DevicesSet>. Skip.,10,False
+b17a8b89,Processing event network-vif-plugg<InstanceId> _process_instance_event <LogOccurAddr>,5,False
+d6c5a2b3,Instance is running spawn <LogOccurAddr>,5,False
+29bf2c84,Took <*> seconds to build instance.,5,False
+0adb6069,Old instance type <*> new instance type <*> resize <LogOccurAddr>,8,True
+f58326c9,Host filter ignoring hosts: h432-l13,8,True
+938d62a6,There are 0 hosts available but 1 instances requested to build. select_destinations <LogOccurAddr>,8,True
+baad7995,Rolled back reservations <RerserveParas> rollback <LogOccurAddr>,10,True
+53a6f2d5,Failed to compute_task_migrate_server: No valid host was found. There are not enough hosts available.,8,True
+d0333872,HTTP exp thrown: No valid host was found. No valid host found for resize,8,True
+fc7bdf83,Returning 400 to user: No valid host was found. No valid host found for resize __call__ <LogOccurAddr>,8,True
+fabac20c,During _sync_instance_power_state the DB power_state <DevicesSet>. Updating power_state in the DB to match the hypervisor.,2,True
+7d0d086e,"Instance shutdown by itself. Calling the stop API. Current vm_state: active, current task_state: None, original DB power_state: 1, current VM power_state: 4",2,True
+7fa2fa52,Instance is already powered off in the hypervisor when stop is called.,2,True
+a5f8e7f2,"Stopping instance; current vm_state: active, current task_state: powering-off, current DB power_state: 4, current VM power_state: 4 do_stop_instance <LogOccurAddr>",2,True
+bae42280,Instance already shutdown.,2,True
+0890241f,Rebooting instance,3,True
+eba1aac7,trying to reboot a non-running instance: <DevicesSet>,2,True
+18303e79,Get console output,1,True
+f89bf297,Pausing,1,True
+7bc09347,Successfully reverted task state from pausing on failure for instance.,1,True
+d14bff08,exp during message handling: Instance instan<InstanceId> could not be found.,1,True
+f7c2c2b1,Stopping WSGI server.,4,False
+49921fce,WSGI server has stopped.,2,False
+7d630e7d,Releasing s<InstanceId> 17:36:14.696 29644 INFO oslo_service.service <RerserveParas> Child 29880 killed by signal 15,1,True
+3a0dc4dc,"Caught SIGTERM, stopping children",3,True
+5b7430e7,Stop services. stop <LogOccurAddr>,1,True
+f31b838c,Killing children. stop <LogOccurAddr>,1,True
+a07c0313,Waiting on <*> children to exit,3,True
+819570f5,Child <*> killed by signal 15,12,True
+55233082,"Guru mediation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.",5,False
+2ebd7cf9,Loading app <*> from <Path> load_app <LogOccurAddr>,2,False
+6445ad27,v21 API Extension <*> <RerserveParas> __init__ <LogOccurAddr>,4,False
+4aa3d564,Skipping periodic task _periodic_update_dns because its interval is negative,5,False
+f51c174d,extension <*> detected by servers extension for function <*> check_load_extension <LogOccurAddr>,152,False
+063b208d,Running _create_extension_schema for <Extension: <*> <*> version=1> _create_extension_schema <LogOccurAddr>,144,False
+eb70f485,Running _update_extension_schema for <Extension: <*> <*> version=1> _update_extension_schema <LogOccurAddr>,24,False
+321effe6,Running _rebuild_extension_schema for <Extension: <*> <*> version=1> _rebuild_extension_schema <LogOccurAddr>,48,False
+780788c7,Running _register_resources on <Extension: <*> <*> version=1> _register_resources <LogOccurAddr>,166,False
+1da94a63,Extended resource: <*> _register_resources <LogOccurAddr>,112,False
+013ed254,Running _register_controllers on <Extension: <*> <*> version=1> _register_controllers <LogOccurAddr>,166,False
+ca523ae3,Extension <*> extending resource: <*> _register_controllers <LogOccurAddr>,68,False
+f802f9ee,Loaded extensions,2,False
+c9a6f6af,Starting <*> workers,9,False
+81d02a21,osapi_compute listening on <IPAddr>:8774,1,False
+7a75b70c,Started child <*> _start_child <LogOccurAddr>,480,False
+2dcdd7db,<DevicesSet> wsgi starting up on <*>,882,False
+cd773361,Child <*> exited with status 0,241,True
+f0f9ad44,Loading network driver 'nova.network.linux_net',1,False
+6e816ffa,Running cmd <DevicesSet>: sudo nova-rootwrap <Path> <*> -c execute <LogOccurAddr>,2,False
+c83b4fe2,CMD <*> nova-rootwrap <Path> <*> <*> returned: 0 in <*> execute <LogOccurAddr>,2,False
+bd45881d,IPTablesManager.apply completed with success _apply <LogOccurAddr>,1,False
+649ed04d,metadata listening on <IPAddr>:8775,1,False
+65a6c3fc,Full set of CONF: <*> <LogOccurAddr>,5,False
+1f44b009,log_opt_values <LogOccurAddr>,2586,False
+c1f9cdcd,START:_async_init_instance_info _async_init_instance_info <LogOccurAddr>,1,False
+0f50b478,Starting <*> node <DevicesSet>,163,False
+2a84957b,Total number of compute nodes: 1 _async_init_instance_info <LogOccurAddr>,1,False
+ee9bdd73,Creating RPC server for service <*> start <LogOccurAddr>,163,False
+78a17141,Adding <*> instances for hosts <InstanceId> _async_init_instance_info <LogOccurAddr>,1,False
+dd2ccbdb,END:_async_init_instance_info _async_init_instance_info <LogOccurAddr>,1,False
+11525208,Join ServiceGroup membership for this service <*> start <LogOccurAddr>,163,False
+513cebe6,"DB_Driver: join new ServiceGroup member <*> to the <*> group, service = <nova.service.Service object at <MemAddr>> join <LogOccurAddr>",163,False
+76c211b3,Connection event '0' reason 'Connection to libvirt lost: 1',1,True
+96c34700,"reply_<ID> doesn't exists, drop reply to <ID>",5,True
+57f27562,The reply <ID> cannot be sent reply_<ID> reply queue don't exist after 60 sec abandoning...,4,True
+c43ea820,Dropping event <*> for unknown instance <InstanceId> create <LogOccurAddr>,6,False
+11f8a79a,Created instance_extra for <InstanceId> instance_extra_update_by_uuid <LogOccurAddr>,2,True
+53eb06c5,Authorization failed for token,2,True
+9e92a300,Identity response: <ServiceDict>,5,True
+084e947d,Loading compute driver 'libvirt.LibvirtDriver',2,True
+bb1cd532,Factory for <*> on x86_64 factory <LogOccurAddr>,16,True
+8b67a5e2,Init DISCO connector,2,False
+5f80b283,Starting <*> <*> thread _init_events <LogOccurAddr>,4,False
+5aec0075,Connecting to libvirt: qemu:///system _get_new_connection <LogOccurAddr>,2,False
+c3b5de44,Connection event '1' reason 'None',2,False
+3ad9577b,Registering for <*> <*> <nova.virt.libvirt.host.Host object at <MemAddr>> _get_new_connection <LogOccurAddr>,4,False
+8b110714,Libvirt host capabilities <capabilities>,2,False
+98c69114,"Current state is 1, state in DB is 1. _init_instance <LogOccurAddr>",4,False
+83d8ebfb,"Service started deleting the instance during the previous run, but did not finish. Restarting the deletion now.",2,True
+017f8505,Excluding nova.compute.monitors.cpu monitor virt_driver. Not in the list of enabled monitors <DevicesSet>.,2,False
+6455e417,u'mv <Path> <Path>' failed. Not Retrying. execute <LogOccurAddr>,8,True
+8e6f055b,<RESP_4XX> <RESP_4XX> <RESP_4XX>,1,True
+5bcccc68,event message: Authentication required _handle_fault_response <LogOccurAddr>,1,True
+a8438c8b,Failed to deallocate network for instance.,1,True
+c36f7971,Instance has been destroyed from under us while trying to set it to event _set_instance_obj_event_state <LogOccurAddr>,2,True
+148e555a,Original exp being dropped: <RerserveParas>,1,True
+5de766bc,Setting instance vm_state to event,1,True
+e5112782,Instance disappeared during terminate,1,True
+7cffcdac,exp during message handling: Authentication required,1,True
+9c9a4711,Loaded quota_driver: <neutron.db.quota.driver.DbQuotaDriver object at <MemAddr>>.,3,True
+575dfa50,event occurred while removing port tap<InstanceId>,1,True
+ab2b043c,The instance sync for host 'h432-l13' did not match. R<InstanceId>reated its InstanceList.,1,False
+512fdba3,HTTP exp thrown: Instance <InstanceId> is not ready,1,True
+6b0cc81e,Returning 409 to user: Instance <InstanceId> is not ready __call__ <LogOccurAddr>,1,True
+a85e3fc4,event in agent loop. Devices info: <ServiceDict>,1,True
+97c8db4d,Failed to consume message from queue: <RerserveParas> Connection timed out,2,True
+916d6c6d,"Failed to process incoming message, retrying...",1,True
+dd1c010f,Unable to connect to AMQP server on controller:5672 after None tries: <RerserveParas> Connection timed out,2,True
+0295d581,AMQP server on controller:5672 is unreachable: connection already closed. Trying again in 1 seconds.,2,True
+8cf24247,Unexpected exp occurred 1 time<DevicesSet>... retrying.,1,True
+b992222b,Updating bandwidth usage cache,1,False
+67e96752,Bandwidth usage not supported by hypervisor.,1,False
+5099da42,"<DevicesSet> wsgi exited, is_accepting=True",219,False
+48f9f2a1,Logging enabled!,6,False
+e3ffdc80,<Path> version 8.1.2,6,False
+95d3c947,Stopping rootwrap daemon process with <*>,3,False
+dd41f500,Synchronizing state,2,True
+e1b327f0,All active networks have been fetched through RPC.,2,True
+2c3752bb,Starting network <InstanceId> dhcp configuration,4,True
+224a9a95,Spawned new rootwrap daemon process with <*>,3,False
+adf9cc50,Finished network <InstanceId> dhcp configuration,4,True
+068b89c2,Synchronizing state complete,2,True
+a85593e0,DHCP agent started,1,True
+1fadeb0e,"Parent process has died unexpectedly, exiting",3,True
+064e73fb,Loading core plugin: ml2,1,True
+a5783e89,Configured <*> driver names: <RerserveParas>,3,True
+103a9dbd,Allowable flat physical_network names: <RerserveParas>,1,True
+32b16435,Network VLAN ranges: <ServiceDict>,1,True
+ed0e295e,Registered types: <RerserveParas>,1,True
+d90052db,Loaded <*> driver names: <RerserveParas>,3,True
+8477000f,Tenant network_types: <RerserveParas>,1,True
+a5c94fbf,Registered <*> drivers: <RerserveParas>,2,True
+b960abcb,Driver configuration doesn't match with enable_security_group,2,True
+4a923355,ML2 FlatTypeDriver initialization complete,1,True
+6ca32eb8,Initializing driver for type <*>,3,True
+70b5d414,VlanTypeDriver initialization complete,1,True
+408fff53,vxlan ID ranges: <RerserveParas>,1,True
+a5969984,Initializing extension driver 'port_security',1,True
+ebadd032,PortSecurityExtensionDriver initialization complete,1,True
+ae52a8dc,Initializing mechanism driver <*>,2,True
+a13e0ff2,Modular L2 Plugin initialization complete,1,True
+218b837d,Got port-security extension from driver 'port_security',1,True
+780f3c12,Disabled vlantransparent extension.,1,True
+85c660bb,Loading Plugin: <*>,5,True
+6dbedee5,Skipping period L3 agent status check because automatic router rescheduling is disabled.,1,True
+e8f7eeb8,Initializing extension manager.,1,True
+12ea26a2,Loaded extension: <*>,31,True
+1638b658,Extension <*> not supported by any of loaded plugins,8,True
+c7c3e7a1,Creating instance of <*> for <*>,9,True
+4922f1dd,"Neutron service started, listening on <IPAddr>:9696",1,True
+f299d10d,L3 agent started,1,True
+65d461f1,Device <*> already exists,2,True
+70396318,Stopping Linux bridge agent agent.,1,False
+4ac78071,Interface mappings: <ServiceDict>,1,False
+c0d6c83c,Bridge mappings: <ServiceDict>,1,False
+08c978a5,"Agent initialized successfully, now running...",1,False
+4f826e7e,RPC agent_id: <*>,1,False
+49c69b28,Loaded agent extensions: <RerserveParas>,1,False
+20b2b9f9,Linux bridge agent Agent RPC Daemon Started!,1,False
+4448acc1,Clearing orphaned ARP spoofing entries for devices <RerserveParas>,1,False
+631f8e77,Path '<Path>' supports direct I/O _supports_direct_io <LogOccurAddr>,1,False
+8be6bc74,AMQP server on controller:5672 is unreachable: <DevicesSet> CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'. Trying again in 1 seconds.,1,True
+3b7d8149,Unexpected event.,2,True
+af636f2e,<GET_5XX> <GET_5XX> <GET_5XX>,54,True
+6d0b12a3,Traceback <DevicesSet>:,1,True
+531ca119,DBAPIevent exp wrapped from <DevicesSet> <RerserveParas>,41,True
+ba34c3a9,Unexpected event while reporting service status,9,True
+ad50736d,exp encountered during network rescheduling,1,True
+02f23c06,exp during message handling: <DevicesSet>,5,True
+d44f669c,Returning exp <DevicesSet> to caller,4,True
+c53ac829,<RerserveParas>,1,True
+c53ac829,<RerserveParas>,1,True
+c53ac829,<RerserveParas>,1,True
+c53ac829,<RerserveParas>,1,True
+f1ae5644,index failed,14,True
+c99f530f,<RESP_5XX> <RESP_5XX> <RESP_5XX>,5,True
+1f5bbc8f,event message: <ServiceDict> _handle_fault_response <LogOccurAddr>,5,True
+b711b6f9,An event occurred while refreshing the network cache.,1,True
+db074e61,Bad response code while validating token: 500,4,True
+c28159fd,Unable to validate token: Failed to fetch token data from identity server,4,True
+eccfef52,Request returned failure status: 500 request <LogOccurAddr>,1,True
+ba463e2e,Unexpected exp in API method,19,True
+7b29b162,Returning 500 to user: Unexpected API event. Please report this at http://bugs.launchpad.net/nova/ and attach the Nova API log if possible.,19,True
+229efaeb,HTTP exp thrown: Unexpected API event. Please report this at http://bugs.launchpad.net/nova/ and attach the Nova API log if possible.,19,True
+981ac4d6,Unable to get images,2,True
+2881d449,Caught event: <DevicesSet>,3,True
+67a7ce3b,Registry client request GET <*> raised Serverevent,3,True
+283d9748,Caught event: The request returned 500 Internal Server event.,3,True
+988f9fdb,Failed to get metadata for instance id: <InstanceId>,2,True
+ad14a134,Remote metadata server experienced an internal server event.,2,True
+e09c3475,"couldn't obtain the vcpu count from domain id: <InstanceId>, exp: Requested operation is not valid: cpu affinity is not supported",1,True
+71ae60cb,Unable to show image <InstanceId>,1,True
+f97daabc,<HEAD_5XX> <HEAD_5XX> <HEAD_5XX>,1,True
+c0a435dd,Caught event: Request Failed: internal server event while processing your request.,2,True
+398cb896,http://controller:8774/v2.1/<ID>/servers/detail?limit=21&project_id=<ID> returned with HTTP 500,2,True
+4439c7da,Returning 500 to user: The server has either erred or is incapable of performing the requested operation. __call__ <LogOccurAddr>,2,True
+69f55169,Resuming,1,True
+94cdcc95,Refresh firewall rules,1,True
+73f2d28c,Removed pending event for <InstanceId> due to lifecycle event _event_emit_delayed <LogOccurAddr>,1,True
+37629c45,Instance soft rebooted successfully.,1,True
+9589d170,Didn't find any instances for network info cache update. _heal_instance_info_cache <LogOccurAddr>,2,False
+d3b10e9e,Removed dead child 29194,1,True
+75f75e51,Started child <*>,321,False
+187eac21,Child 273333 exiting normally,1,True
